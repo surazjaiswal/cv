@@ -1,0 +1,119 @@
+body{
+  background-color: #fdf1f3;
+  font-family: sans-serif;
+  animation-name:mymove_2;
+  animation-duration: 2s;
+  position: relative;
+}
+h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  background:#f56991;
+  position: relative;
+  color: white;
+  border-radius: 5px;
+}
+/* #ff073a
+
+ rgba(255,7,58,.12549)
+ */
+h4{
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #f56991;
+  position: relative;
+  color:white;
+  border-radius: 5px;
+}
+h5{
+
+  font-weight: 1000;
+  text-transform: uppercase;
+  background:#f56991;
+  position: relative;
+  color: white;
+  border-radius: 5px;
+}
+h2{
+  font-family: "archia";
+  font-weight: 900;
+  text-transform: uppercase;
+  background: rgba(0,123,255,.1);
+    position: relative;
+    color: rgba(0,123,255,.6);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-bottom: .5rem;
+    flex: 1 1;
+    padding: .25rem;;
+}
+h3{
+  font-family: "archia";
+  font-weight: 900;
+  text-transform: uppercase;
+  background: rgba(0,123,255,.1);
+    position: relative;
+    color: rgba(0,123,255,.6);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-bottom: .5rem;
+    flex: 1 1;
+    padding: .25rem;
+}
+hr{
+  background-color: white;
+  border-style: none;
+  height: 0px;
+  border-style: none none none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 60%;
+}
+
+img{
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+thead{
+  font-weight: 900;
+  text-transform: uppercase;
+  color:#69f5cd;
+  filter: drop-shadow(0 0 0.75rem #69f5cd);
+}
+
+table{
+  animation-name: mymove;
+  position: relative;
+  animation-duration: 1s;
+  }
+@keyframes mymove {
+  from{right:200px}
+  to{right:0px}
+}
+
+div{
+  animation-name: mymove3;
+  position: relative;
+  animation-duration: 2s;
+  align-content: center;
+  }
+@keyframes mymove3 {
+  /*
+  0%   {background: crimson; right:200px; top: 0px;}
+  100%  {background: white; right:0px; top: 0px;}
+  */
+  from{right:200px}
+  to{right:0px}
+}
+@keyframes mymove_2 {
+  from{right:200px}
+  to{right:0px}
+}
+li{
+  line-height: 2;
+}
